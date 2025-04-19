@@ -23,10 +23,10 @@ bedrock:
   clone-remote-port: false
   # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. This is irrelevant if "passthrough-motd" is set to true
   # If either of these are empty, the respective string will default to "Geyser"
-  motd1: "§l§9SVGNET's Minecraft server§r"
+  motd1: "§l§9A Minecraft server§r"
   motd2: "(GeyserMC)"
   # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
-  server-name: "SVGNET's Minecraft Server"
+  server-name: "GeyserMC"
   # How much to compress network traffic to the Bedrock client. The higher the number, the more CPU usage used, but
   # the smaller the bandwidth used. Does not have any effect below -1 or above 9. Set to -1 to disable.
   compression-level: 6
@@ -76,7 +76,6 @@ floodgate-key-file: key.pem
 # but you should still be cautious when adding to this list and giving others access to this Geyser instance's files.
 # Removing a name from this list will delete its cached login information on the next Geyser startup.
 # The file that tokens will be saved in is in the same folder as this config, named "saved-refresh-tokens.json".
-# [SVGNET:] can I just use `*`? I 
 saved-user-logins:
 
 # Specify how many seconds to wait while user authorizes Geyser to access their Microsoft account.
