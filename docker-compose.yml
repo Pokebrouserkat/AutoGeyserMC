@@ -1,0 +1,11 @@
+services:
+    autoserver:
+        build: .
+        volumes:
+            - .:/app
+        container_name: minecraft
+        ports:
+            - "25565:25565"
+            - "19132:19132"
+            - "19133:19133/udp"
+        restart: on-failure
