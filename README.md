@@ -18,4 +18,4 @@
 I'd recommend just running it directly and seeing what files you want to mess with.
 
 
-*This file was made with the help of [a ChatGPT chat](https://chatgpt.com/share/6803fe41-bcd4-8009-a134-707a31fc4076) what's actual README I did not actually use
+*This file was made with the help of [a ChatGPT chat](https://chatgpt.com/share/6803fe41-bcd4-8009-a134-707a31fc4076) what's actual README I did not actually use*
